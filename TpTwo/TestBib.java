@@ -3,7 +3,7 @@ public class TestBib {
     {
         Bibliotheque bib = new Bibliotheque(3);
         Document doc1 = new Document("Archive");
-        Livre doc2 = new Livre("The giver", "Yas", "MES");
+        Livre doc2 = new Livre("The giver", "Yaaaas", "MES");
         Document doc3 = new Internet("Google", "Google.com");
 
         bib.ajouter(doc1);
