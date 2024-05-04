@@ -7,7 +7,17 @@ public class CompositePiece extends Piece{
     public CompositePiece(double t)
     {
         this.assemblyTime = t;
-        this.CPieces = new ArrayList<>();
+        this.CPieces = new ArrayList<Piece>();
+    }
+
+    public double get_assTime()
+    {
+        return assemblyTime;
+    }
+
+    public void set_assTime(double t)
+    {
+        this.assemblyTime = t;
     }
 
     public void add(Piece P)
