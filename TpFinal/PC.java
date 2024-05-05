@@ -16,7 +16,7 @@ public class PC {
 
         if (cons > 1000)
         {
-            throw new ConsoExeption("La consommation électrique dépasse 1000 Watts.");
+            throw new ConsoExeption("La consommation électrique dépasse 1000 Watts");
         }
         return cons;
     }
