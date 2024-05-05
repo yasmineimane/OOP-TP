@@ -9,11 +9,11 @@ public class Test {
         p.add(clavier);
         p.add(monitor);
 
-        PC Pc0 = new PC(uc, p);
+        PC Pc = new PC(uc, p);
 
         try {
-            double consPc0 = Pc0.calcConsoElec(5);
-            System.out.println("La consommation électrique du PC0 est de " + consPc0 + 
+            double consPc = Pc.calcConsoElec(5);
+            System.out.println("La consommation électrique du PC est " + consPc + 
             " Watts pour une durée de 5 heures.");
         } catch (ConsoExeption e)
         {
