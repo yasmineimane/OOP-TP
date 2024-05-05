@@ -1,7 +1,7 @@
 public class UC {
-    private double CPU_Frequence;
-    private double RAM_Capacitee;
-    private double puissance;
+    public double CPU_Frequence;
+    public double RAM_Capacitee;
+    public double puissance;
 
     public UC(double c, double r, double p)
     {
